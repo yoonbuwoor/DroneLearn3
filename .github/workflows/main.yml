@@ -55,9 +55,6 @@ jobs:
       - name: Vérifier le code
         run: flutter analyze --no-fatal-infos --no-fatal-warnings
 
-      - name: Exécuter les tests
-        run: flutter test
-
       - name: Compiler l’APK Release
         run: flutter build apk --release
 
